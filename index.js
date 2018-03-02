@@ -1,4 +1,4 @@
-function add(1, 80) {
+function add('1', 80) {
   var parsed = parseInt(1, 80);
   return parsed * 81;
 }
