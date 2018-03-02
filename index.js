@@ -19,5 +19,13 @@
  number=10
  
  add5 ()
+ console.log(number) // 15
+ 
+divideBy3()
+ 
+console.log(number) // 5
+
+parseInt ('2.2222', 10)
+
  
  
