@@ -1,10 +1,23 @@
-
-var number = 5
+ var number = 10
  
-number++ // 5... hmmmm
+ function add5() {
+   number += 5
+ }
  
-number // 6 -- the number was incremented after it was evaluated
+ function divideBy3() {
+   number /=3
+ }
  
-number-- // 6
+ divideBy3()
  
-number // 5
+ console.log(number) // 3.3333335 
+ 
+ add5()
+ console.log(number) // 8.33333335 
+ 
+ // reset number 
+ number=10
+ 
+ add5 ()
+ 
+ 
